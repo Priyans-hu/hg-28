@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HG-28 official Page</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0%;
+        }
+        
+        .grpname {
+            text-align: center;
+            font-size: xx-large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .faculties {
+            text-align: center;
+        }
+        
+        .faculty {
+            height: 160px;
+            width: 400px;
+            background-color: rgba(65, 105, 225, 0.637);
+            display: flex;
+            overflow: hidden;
+            /* border-radius: 5%; */
+            box-shadow: black 5px 5px 5px;
+            display: inline-block;
+            margin: 1%;
+        }
+        
+        body .team {
+            margin-left: 2%;
+        }
+        
+        body .team .student {
+            height: 160px;
+            width: 30%;
+            background-color: rgba(65, 105, 225, 0.637);
+            display: flex;
+            overflow: hidden;
+            /* border-radius: 5%; */
+            box-shadow: black 5px 5px 5px;
+            display: inline-block;
+            margin: 1%;
+        }
+        
+        .facultyimg,
+        body .team .student .studentpic {
+            margin: 3%;
+            box-shadow: black 2px 2px 2px;
+            width: 37%;
+            border-radius: 50%;
+            height: 85%;
+            float: left;
+            overflow: hidden;
+            background-color: bisque;
+            /* align itmes */
+            object-fit: fill;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            justify-self: center;
+        }
+        
+        body .team .student .studentdetail {
+            margin: 5%;
+            display: inline-block;
+        }
+        
+        body .team .student .studentdetail h2:hover {
+            text-decoration: underline black 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="grpname">HG - 28</h1>
+    <div class="faculties">
+        <h1>FACULTIES</h1>
+        <div class="faculty">
+            <div class="facultyimg">
+                <img src="user-img.png" width="100%" alt="">
+            </div>
+            <span class="facultydetail">
+                <h1>Mrs. Ishu Sharma</h1>
+                <h3>Intorduction to web tech.</h3>
+            </span>
+        </div>
+        <div class="faculty">
+            <div class="facultyimg">
+                <img src="user-img.png" width="100%" alt="">
+            </div>
+            <span class="facultydetail">
+                <h1>Mrs. Ridhima G.</h1>
+                <h3>Master & computational physics</h3>
+            </span>
+        </div>
+    </div>
+    <div class="team">
+        <h1>STUDENTS</h1>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Priyanshu Garg</h2>
+                <h3>2110992065</h3>
+            </span>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
