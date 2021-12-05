@@ -13,10 +13,18 @@
             margin: 0%;
         }
         
-        .grpname {
+        body .grpname {
+            margin: 0;
             text-align: center;
-            font-size: xx-large;
+            padding: 4%;
+            background-color: blanchedalmond;
+            font-size: 2em;
+        }
+        
+        body .grpname h1 {
+            margin: 0;
             font-family: Arial, Helvetica, sans-serif;
+            border-bottom: 2px black solid;
         }
         
         .faculties {
@@ -26,6 +34,7 @@
         .faculty {
             height: 160px;
             width: 400px;
+            padding: 10px;
             background-color: rgba(65, 105, 225, 0.637);
             display: flex;
             overflow: hidden;
@@ -35,13 +44,17 @@
             margin: 1%;
         }
         
+        body .faculties .faculty .facultydetail h1:hover {
+            text-decoration: underline black 2px;
+        }
+        
         body .team {
             margin-left: 2%;
         }
         
         body .team .student {
             height: 160px;
-            width: 30%;
+            width: 400px;
             background-color: rgba(65, 105, 225, 0.637);
             display: flex;
             overflow: hidden;
@@ -77,6 +90,12 @@
         body .team .student .studentdetail h2:hover {
             text-decoration: underline black 1px;
         }
+        /* @media only screen and (max-width: 500px) {
+            body .faculties .faculty,
+            body .team .student {
+                width: 85%;
+            }
+        } */
     </style>
 </head>
 
@@ -107,14 +126,567 @@
         <h1>STUDENTS</h1>
         <div class="student">
             <div class="studentpic">
-                <img src="https://github.com/Priyans-hu/hg-28/blob/main/user-img.png" width="100%" alt="student pic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Isha Yadav</h2>
+                <h3>2110992064</h3>
+            </span>
+        </div>
+
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
             </div>
             <span class="studentdetail">
                 <h2>Priyanshu Garg</h2>
                 <h3>2110992065</h3>
             </span>
         </div>
-    </div>
+
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Aditya Koul</h2>
+                <h3>2110992068</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Mohit</h2>
+                <h3>2110992071</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Daksh</h2>
+                <h3>2110992083</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Manav Shandilya</h2>
+                <h3>2110992084</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Vidhi Thakur</h2>
+                <h3>2110992088</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Loven Kaushal</h2>
+                <h3>2110992090</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Udhbhav Rana</h2>
+                <h3>2110992097</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ankit Kumar Rai</h2>
+                <h3>2110992102</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ritik</h2>
+                <h3>2110992104</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Shriya Rana</h2>
+                <h3>2110992105</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Samarveer</h2>
+                <h3>2110992106</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Raj Singh</h2>
+                <h3>2110992107</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ayush k. Singh</h2>
+                <h3>2110992109</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Himani</h2>
+                <h3>2110992110</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Anshul Hernote</h2>
+                <h3>2110992111</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ashutosh Gaur</h2>
+                <h3>2110992115</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Kartik Sood</h2>
+                <h3>2110992116</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Vansh</h2>
+                <h3>2110992124</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Abhinav Rana</h2>
+                <h3>2110992126</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Himanshu</h2>
+                <h3>2110992128</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Prachi Singhal</h2>
+                <h3>2110992133</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Navjot Dhesi</h2>
+                <h3>2110992136</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ranvir Kumar</h2>
+                <h3>2110992143</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Hanish Kumar</h2>
+                <h3>2110992145</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Sagar Pratap</h2>
+                <h3>2110992152</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ranveet s. Kang</h2>
+                <h3>2110992155</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Himanshi</h2>
+                <h3>2110992157</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Smile</h2>
+                <h3>2110992165</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Aaryan</h2>
+                <h3>2110992175</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Abhinav Dixit</h2>
+                <h3>2110992176</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Amit Jangra</h2>
+                <h3>2110992182</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ankit Biswas</h2>
+                <h3>2110992184</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ansh Singhal</h2>
+                <h3>2110992185</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Anshika Jain</h2>
+                <h3>2110992186</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Chirag</h2>
+                <h3>2110992195</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Deepraj Singh</h2>
+                <h3>2110992200</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Divyansh Jain</h2>
+                <h3>2110992203</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Gaurav</h2>
+                <h3>2110992206</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Himanshu Mishra</h2>
+                <h3>2110992209</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Mohit</h2>
+                <h3>2110992217</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Mohit</h2>
+                <h3>2110992218</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Parvesh k. Bansal</h2>
+                <h3>2110992222</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Partim Roy</h2>
+                <h3>2110992224</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Rahul Sharma</h2>
+                <h3>2110992227</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Rajat Kumar</h2>
+                <h3>2110992229</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Ritik</h2>
+                <h3>2110992231</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Riya Sen</h2>
+                <h3>2110992232</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Robin Chawla</h2>
+                <h3>2110992233</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Rupesh Sahu</h2>
+                <h3>2110992234</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Rushil</h2>
+                <h3>2110992235</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Shivam Goel</h2>
+                <h3>2110992240</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Sidharth Goel</h2>
+                <h3>2110992246</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Sohit Goyal</h2>
+                <h3>2110992247</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Srishti Goel</h2>
+                <h3>2110992248</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Vikram Singh</h2>
+                <h3>2110992262</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Vanshika</h2>
+                <h3>2110996037</h3>
+            </span>
+        </div>
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Lovi Gupta</h2>
+                <h3>2110996039</h3>
+            </span>
+        </div>
+
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Smile Chambial</h2>
+                <h3>2110996057</h3>
+            </span>
+        </div>
+
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Abhinav Tripathi</h2>
+                <h3>2110996055</h3>
+            </span>
+        </div>
+
+        <div class="student">
+            <div class="studentpic">
+                <img src="user-img.png" width="100%" alt="student pic">
+            </div>
+            <span class="studentdetail">
+                <h2>Diya Wason</h2>
+                <h3>2110994509</h3>
+            </span>
+        </div>
     </div>
 </body>
 
