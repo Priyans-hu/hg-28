@@ -1,4 +1,4 @@
-.<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,7 +17,7 @@
             margin: 0;
             text-align: center;
             padding: 4%;
-            background-color: blanchedalmond;
+            background-color: coral;
             font-size: 2em;
         }
         
@@ -90,17 +90,35 @@
         body .team .student .studentdetail h2:hover {
             text-decoration: underline black 1px;
         }
-        /* @media only screen and (max-width: 500px) {
+        
+        footer {
+            margin-top: 2%;
+            background-color: coral;
+        }
+        
+        footer p {
+            margin: 0;
+            padding: 5%;
+            text-align: center;
+            font-family: monospace;
+            font-size: xx-large;
+        }
+        
+        @media only screen and (max-width: 420px) {
             body .faculties .faculty,
             body .team .student {
-                width: 85%;
+                width: 300px;
             }
-        } */
+        }
     </style>
 </head>
 
 <body>
-    <h1 class="grpname">HG - 28</h1>
+    <div class="grpname">
+        <h1>HG - 28</h1>
+    </div>
+
+    <!-- teachers data -->
     <div class="faculties">
         <h1>FACULTIES</h1>
         <div class="faculty">
@@ -109,7 +127,7 @@
             </div>
             <span class="facultydetail">
                 <h1>Mrs. Ishu Sharma</h1>
-                <h3>Intorduction to web tech.</h3>
+                <h3>Intorduction to web Technology</h3>
             </span>
         </div>
         <div class="faculty">
@@ -117,13 +135,15 @@
                 <img src="user-img.png" width="100%" alt="">
             </div>
             <span class="facultydetail">
-                <h1>Mrs. Ridhima G.</h1>
+                <h1>Mrs. Ridhima Galahotra</h1>
                 <h3>Master & computational physics</h3>
             </span>
         </div>
     </div>
+
+    <!-- students data -->
     <div class="team">
-        <h1>STUDENTS</h1>
+        <h1 style="text-align: center;">STUDENTS</h1>
         <div class="student">
             <div class="studentpic">
                 <img src="user-img.png" width="100%" alt="student pic">
@@ -688,6 +708,10 @@
             </span>
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2021 HG-28 CSE</p>
+    </footer>
 </body>
 
 </html>
