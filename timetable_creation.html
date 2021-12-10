@@ -6,11 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TimeTable Creation</title>
+
+    <style>
+        @media only screen and (max-width: 450px) {
+            body {
+                /* min-width: fit-content; */
+                width: fit-content;
+            }
+            body table tr td p {
+                display: none;
+            }
+            body table tr td h1 {
+                font-size: 90%;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <fieldset>
-        <legend>TimeTable</legend>
+        <legend style="font-size: x-large;">TimeTable</legend>
         <h1 style="text-align: center;">1st Semester Timetable</h1>
         <table border="1" style="text-align: center; width: 100%;">
             <!-- timings and days -->
